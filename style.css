@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/media/photo-1543791962-d56ec0590a25.jpeg);
+    background-size: cover;
+    background-color: whitesmoke;
+}
+
+.darkblue {
+    color: rgb(0, 0, 51);
+}
+
+.lightblue {
+    color: rgb(204, 255, 255);
+}
+
+.warmyellow {
+    color: rgb(255, 204, 0);
+}
+
+
+.page-border {
+    border: 0.75rem solid;
+ width: 90%;
+ height: 90vh;
+ margin: 3rem auto;
+ 
+}
