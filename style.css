@@ -59,8 +59,11 @@ body {
 header .logo {
     width:  36rem;
     height: 36rem;
+    position: relative;
     margin: auto;
+    z-index: 2;
 }
+
 
 .presentation-container {
     transform: skewY(-11deg);
@@ -141,10 +144,34 @@ margin-bottom: auto;
     height: 4.5rem;
     transform: skewY(11deg);
     text-align: center;
+    position: relative;
+    z-index: 2;
 }
 
 .contact {
     width: 36rem;
     height: 36rem;
     margin: 9rem auto 0 auto;
+}
+
+footer {
+    margin: 13.5rem auto 0 auto;
+    width: 80%;
+    height: 4.5rem;
+    z-index: 2;
+    position: relative;
+    bottom: 2.62rem;
+    border: 0.1rem solid red;
+}
+
+footer .footer-logo{
+    border: 0.1rem solid green;
+    width: 9rem;
+    height: 100%;
+}
+
+footer .footer-contact{
+    border: 0.1rem solid blueviolet;
+    width: 49.5rem;
+    height: 100%;
 }
