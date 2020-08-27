@@ -45,7 +45,7 @@ body {
 } */
 
 header .logo {
-    width: 40%;
+    width:  36rem;
     height: 36rem;
     margin: auto;
 }
@@ -83,36 +83,55 @@ margin-bottom: auto;
     height: 2.25rem;
 }
 
+
 .product-container {
     width: 80%;
-    display: flex;
-    flex-direction: column;
+    margin: 9rem auto 0rem auto;
     border: 0.5rem solid pink;
-    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 22.5rem);
+    grid-template-areas: 
+    " . image-cocktail text-cocktail text-cocktail"
+    "text-mocktail text-mocktail image-mocktail . ";
 }
 
-.row-one {
-    border: 0.2rem solid lightblue;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.row-two {
-    border: 0.2rem solid lightgreen;
-    display: flex;
-    justify-content: flex-start;
-}
-
-
-.image {
-    background-image: url(/media/cocktail.jpeg);
-    height: 22.5rem;
+.image-cocktail {
     width: 18rem;
-    
+    background-image: url(/media/cocktail.jpeg);  
+    grid-area: image-cocktail;
+    justify-self: end;
 }
 
-.text {
+
+.text-cocktail {
+    border: 0.5rem solid lightgreen;
+    grid-area: text-cocktail;
+}
+
+
+.text-mocktail {
+    border: 0.5rem solid lightskyblue;
+    grid-area: text-mocktail;
+}
+
+.image-mocktail{
+    width: 18rem;
     background-image: url(/media/cocktail.jpeg);
-    height: 22.5rem;
-    flex-grow: 1;
+    grid-area: image-mocktail;
+    justify-self: start;
+}
+
+.line-book-table {
+    margin: 13.5rem 0 0 0;
+    width: 100%;
+    height: 4.5rem;
+    transform: skewY(11deg);
+    text-align: center;
+}
+
+.contact {
+    width: 36rem;
+    height: 36rem;
+    margin: 9rem auto 0 auto;
 }
