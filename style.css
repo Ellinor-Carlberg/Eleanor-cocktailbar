@@ -34,15 +34,27 @@ h1, h3{
 
 body {
     background-image: url(/media/photo-1543791962-d56ec0590a25.jpeg);
-    background-size: repeat;
+    background-size: cover;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-/* 
+
+.wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
 .page-border {
     border: 0.75rem solid;
-    width: calc(100% - 9rem);
-    height: calc(100% - 9rem);
-    margin: 4.5rem auto;
-} */
+    top: 4.5rem;
+    left: 4.5rem;
+    right: 4.5rem;
+    bottom: 4.5rem;
+    position: absolute;
+    z-index: 1;
+} 
 
 header .logo {
     width:  36rem;
@@ -55,6 +67,7 @@ header .logo {
     height: 22.5rem;
     position: relative;
     margin: 9rem 0 0 0;
+    left: 0;
 }
 
 .presentation-text {
