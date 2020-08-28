@@ -114,11 +114,10 @@ margin-bottom: auto;
 
 
 .white-background-container {
- /*    background-color: white;
+  /* background-color: white;
     width: 100%;
     height: 100%;
-    position: relative;
-    padding: 9rem 0 9rem 0; */
+    position: relative; */
     background-image: url(/media/french75-stjarntecken-drink-lejon-800x533.jpg);
     background-size: cover;
     background-color: white;
@@ -156,16 +155,6 @@ margin-bottom: auto;
     align-self: flex-end; 
 }
 
-/* 
-.line-book-table {
-    margin: 13.5rem 0 0 0;
-    width: 100%;
-    height: 4.5rem;
-    transform: skewY(11deg);
-    text-align: center;
-    position: relative;
-    z-index: 2;
-} */
 
 .line-two {
     margin: 0 0 0 0;
@@ -184,29 +173,7 @@ margin-bottom: auto;
     padding: 18rem 0 18rem 0;
 }
 .contact {
-    width: 60%;
+    width: 70%;
     height: 27rem;
     margin: 0 auto 0 auto;
-}
-
-footer {
-    margin: 9rem auto 0 auto;
-    width: 80%;
-    height: 9rem;
-    z-index: 2;
-    position: relative;
-    bottom: 4.5rem;
-    border: 0.1rem solid red;
-    display: flex;
-    justify-content: center;
-}
-
-footer .footer-logo{
-    width: 20%;
-    height: 100%;
-}
-
-footer .footer-contact{
-    width: 60%;
-    height: 100%;
 }
