@@ -42,6 +42,17 @@ body {
     background-attachment: fixed;
 }
 
+.button {
+    width: 4.5rem;
+    height: 4.5rem;
+    position: sticky;
+    top: 2.25rem;
+    left: 2.5rem;
+    z-index: 2;
+    margin: 6.75rem 0 0 0;
+    border-radius: 50%;
+}
+
 .wrapper {
     position: relative;
     height: 100%;
