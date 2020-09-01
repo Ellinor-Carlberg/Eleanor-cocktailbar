@@ -37,6 +37,7 @@ h1, h3{
 body {
     background-image: url(/media/photo-1543791962-d56ec0590a25.jpeg);
     background-size: cover;
+    background-position: center;
     background-color: white;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -122,12 +123,13 @@ margin-bottom: auto;
     background-size: cover;
     background-color: white;
     background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
     padding: 13.5rem 0 18rem 0;
 }
 
 .product-container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto 0rem auto;
     border: 0.5rem solid pink;
     display: flex;
@@ -144,7 +146,7 @@ margin-bottom: auto;
 }
 
 .image-product {
-    margin: 0 2.025rem 0 2.025rem;
+    margin: 0 2.1rem 0 2.1rem;
     border: 0.225rem solid black;
     height: 49.5rem;
 }
@@ -167,6 +169,7 @@ margin-bottom: auto;
     width: 100%;
     height: 100%;
     background-size: cover;
+    background-position: center top;
     background-color: white;
     background-repeat: no-repeat;
     background-attachment: fixed;
